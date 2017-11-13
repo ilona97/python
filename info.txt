@@ -1,0 +1,8 @@
+Kolejność korzystania:
+1.  git.txt
+2.  python.py
+3.  print.py
+3.  input.py
+4.  if.py
+5.  while.py
+6.  function.py
