@@ -53,3 +53,30 @@ zdalne repozytorium - na serwerze (remote repository)
 #5 dodaj do staged area wszystkie pliki z workspace
 #6 zatwierdz zmiany do lokalnego repozytorium
 #7 wyślij zmiany na repozytorium zdalne
+
+#### Ćwiczonko utrwalenie 1:
+1# utwórz repozytorium o nazwie test_git w serwisie github.com
+2# sklonuj zdalne repozytorium na komputer do folderu Dokumenty/testowanie
+3# dodaj do obszaru roboczego repozytorium dwa pliki(jeden.txt:"to jest pierwszy plik", dwa.txt:"to jest drugi plik")
+4# dodaj pliki do staged area, a potem zatwierdz zmiany z dowolną wiadomością
+5# wyślij zmiany do repozytorium zdalnego
+6# sprawdź historię zmian za pomocą: git log 
+
+#### Ćwiczonko utrwalenie 2:
+1# utwórz folder o nazwie 'test_git_v2' na komputerze w katalogu Dokumenty/testowanie
+2# w nowoutworzonym folderze utwórz nowe repozytorium(init)
+3# dodaj zdalne(remote add) repozytorium utworzone w poprzednim zadaniu(test_git) i oznacz je nazwą origin
+4# pobierz(pull) zdalne repozytorium używając nazwy origin utworzonej w poprzednim punkcie
+5# dodaj do obszaru roboczego repozytorium jeden plik(trzy.txt:"nowy plik v2"), a jeden instniejący zmodyfikuj dowolnie
+6# dodaj pliki do staged area, a potem zatwierdz zmiany z dowolną wiadomością
+7# wyślij(push) zmiany do repozytorium zdalnego
+8# sprawdź historię zmian, zaobserwuj czy ma ona coś wspólnego z historią z poprzedniego zadania
+
+#### Ćwiczonko utrwalenie 3 - add, commit, push
+1# zmień nazwę folderu 'test_git_v2' na 'test1'
+2# dodaj nowy plik cztery.txt:"nowości"
+3# dodaj do obszaru roboczego, zatwierdź i prześlij do repozytorium zdalnego
+4# zmień plik jeden.txt dopisując do nowej lini "wersja v3"
+5# dodaj do obszaru roboczego, zatwierdź i prześlij do repozytorium zdalnego
+6# usuń plik dwa.txt
+7# dodaj do obszaru roboczego, zatwierdź i prześlij do repozytorium zdalnego
