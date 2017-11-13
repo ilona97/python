@@ -61,6 +61,7 @@ zdalne repozytorium - na serwerze (remote repository)
 4# dodaj pliki do staged area, a potem zatwierdz zmiany z dowolną wiadomością
 5# wyślij zmiany do repozytorium zdalnego
 6# sprawdź historię zmian za pomocą: git log 
+    (aby wyjść z trybu historii trzeba nacisnąć 'q')
 
 #### Ćwiczonko utrwalenie 2:
 1# utwórz folder o nazwie 'test_git_v2' na komputerze w katalogu Dokumenty/testowanie
