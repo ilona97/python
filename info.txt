@@ -6,3 +6,6 @@ Kolejność korzystania:
 4.  if.py
 5.  while.py
 6.  function.py
+
+# Ćwiczenia należy wykonywać jak najbardziej optymalną metodą,
+    oraz korzystać przede wszystkim z zagadnień nowych w danym pliku.
