@@ -63,15 +63,32 @@ c. jeśli warunek fałszywy(=false) przejdź do następnej instrukcji programu
 """
 
 #Ćwiczonko numer pierwsze: zapisz algorytm wykonania instrukcji if/else
+"""
+a. sprawdz warunek
+b. jesli warunek jest prawdziwy wykonaj instrukcje
+c. jesli warunek jest fałszywy wykonaj instrukcje else
+"""
+
 
 #Ćwiczonko numer drugie: zapisz algorytm wykoniania instrukcji if/elif/else
-
-
+"""
+a. sprawdz warunek dla instrukcji if
+b. jesli warunek jest prawdziwy wykonaj instrukcje if
+c. jesli warunek jest fałszywy przejdz do instrukcji elif
+d. sprawdz warunek dla instrukcji elif
+e. jeśli warunek jest prawdziwy wykonaj instrukcje elif
+f. jeśli warunek jest fałszywy wykonaj instrukcje else
+"""
 ## while (warunek) instrukcjaW
 """
 a. sprawdź warunek
-b. jeśli warunek prwadziwy wykonaj instrukcjaW i przejdź do punktu a.
+b. jeśli warunek prawdziwy wykonaj instrukcjaW i przejdź do punktu a.
 c. jeśli warunek fałszywy przejdź do następnej instrukcji programu
 """
 
 #Ćwiczonko numer trzecie: zapisz algorytm wykoniania instrukcji while/else
+"""
+a. sprawdz warunek dla instrukcjiW
+b. jeśli warunek prawdziwy wykonaj instrukcjeW i przejdz do punktu a 
+c. jeśli warunek fałszywy wykonaj instrukcje else
+"""
