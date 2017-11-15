@@ -31,13 +31,42 @@ False - fałsz, nieprawda
 None - wartość nieokreślona, nieznana
 '''
 
-# ćwiczonko pierwsze
+# ćwiczonko zero
 # Sprawdź używając konstrukcji if/else jakie wartości logiczne posiadają następujące wartości:
 # True, False, 1, 100, -999, 0
 # Przykładowo: dla wartości 1, program ma wyświetlić '1 = prawda' lub '1 = fałsz', tak samo dla pozostałych wartości.
 
+if(True):
+    print("True = prawda")
+else:
+    print("True = fałsz")
 
-#ćwiczonko drugie
+if(False):
+    print("False = prawda")
+else:
+    print("False = fałsz")
+
+if(1):
+    print("1 = prawda")
+else:
+    print("1 = fałsz")
+
+if(100):
+    print("100 = prawda")
+else:
+    print("100 = fałsz")
+
+if(-999):
+    print("-999 = prawda")
+else:
+    print("-999 = fałsz")
+
+if(0):
+    print("0 = prawda")
+else:
+    print("0 = fałsz")
+
+#ćwiczonko pierwsze
 #Sprawdź na przykładzie, jaką wartość logiczną ma suma logiczna, dla wszystkich możliwych przypadków.
 #Wynik działania programu ma wyglądać następująco:
 # Suma logiczna - alternatywa - or
