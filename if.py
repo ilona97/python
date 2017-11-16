@@ -66,6 +66,47 @@ if(0):
 else:
     print("0 = fałsz")
 
+#
+# @Extra tasks
+# 1. Sprawdź używając python'a czy dwa jest większę od czternastu.
+
+# 2. Sprawdź czy dla komputera dwanaście to to samo co dwa razy sześć.
+
+# 3. Powiedz co wypisze poniższy program, ale nie sprawdzaj czy miałaś rację ;)
+# x = 12
+# if(12 > x):
+#     print("prawda to")
+# else:
+#     print("nieprawda :o")
+#
+#=>
+
+# 4. Korzystając tylko z pythona i konsoli sprawdź jaka jest kolejność wykonywania działań logicznych kiedy nie ma nawiasów.
+# Tzn. czy pierwszeństwo ma 'and' czy 'or'
+# Np. w zwykłej algebrze: 2 + 5 * 3 = 2 + (5 * 3) = 2 + 15
+# A jak to będzie w algebrze bool'a?
+
+
+# 5. Obok warunków wypisz jakie według Ciebie mają one wartości?
+# Wszystkie pomoce dozwolone, oprócz użycia do tego python'a i konsoli.
+# 12 > 5 #=> 
+# True or False #=> 
+# 1 > 3 and 3 > 11 #=> 
+# x*2 >= x #=> 
+# x >= 0 or x < 0 #=> 
+# False == False #=> 
+# False and False #=>
+# (12 > 3 and 11 > 4 and 8 >= 8) or 9 < -1 #=> 
+
+# W poniższych przykładach skracaj powoli warunek w takiej kolejności jak to zrobi komputer
+#   np.: True and False or True #=> False or True #=> True
+# True and True or False #=>
+# True or False and True #=>
+# True and (True or False) #=>
+# (True and True or False) or (True or False and True) #=>
+# True and (False or True) or (False or True and (False or True)) #=>
+
+
 #ćwiczonko pierwsze
 #Sprawdź na przykładzie, jaką wartość logiczną ma suma logiczna, dla wszystkich możliwych przypadków.
 #Wynik działania programu ma wyglądać następująco:
@@ -115,7 +156,34 @@ else:
 #Napisz program, który pobiera liczbę i wypisuje na ekran czy jest dodatnia, ujemna czy równa zero.
 
 
-#ćwiczonko dziesiąte
+#ćwiczonko dziesiąte a.
+#Komputer rozumie tylko zera i jedynki.
+#Więc dla komputera wszystko jest liczbą.
+#Np. dziesiętna liczba 5, to dla komputera 0011 - to akurat łatwe
+#Ale np. literka 'a' ? jaka to będzie liczba? nie będzie to wcale jakaś losowa kombinacja zer i jedynek
+#Znaki zakodowane są w tak zwanym kodzie ASCII, każdy znak ma tam swój odpowiednik liczbowy.
+# Aby zamienić dowolny znak na liczbę należy użyć funkcji ord(), np:
+# ord("a") #=> 97
+# Aby z liczby stworzyć znak należy uzyć funkcji chr(), np:
+# chr(97) #=> "a"
+# Twoje zadanie polega na tym aby sprawdzić jaka liczba w kodzie ASCII odpowiada literce 'h' oraz 'H'
+# A potem sprawdzić jaka literka odpowiada liczbie 99 i 100 w kodzie ACII
+
+#ćwiczonko dziesiąte b.
+#Zastanów się co wypisze na ekran poniższa instrukcja:
+# print( chr(ord("a")+1) )
+
+#ćwiczonko dzisiąte c.
+#Wypisz na ekran swoje imię(z wielkiej litery) korzystając z instrukcji print,
+# ale nie używając do tego liter. (użyj funkcji chr(), możesz wspomóc się tablicą kodów ASCII)
+
+#ćwiczonko dziesiąte d.
+#Napisz program, który spyta Cię jaka liczba w kodzie ASCII odpowiada znakowi "?",
+# a następnie wypisze sprawdzi i powie Ci czy dobrze odpowiedziałaś.
+#Zrób to na dwa sposoby, w pierwszym użuj funkcji ord() a w drugim funkcji chr()
+
+
+#ćwiczonko jedenaste
 #Napisz program, który pobierze od Ciebie dwa ulubione przedmioty szkolne i powie Ci kim zostaniesz w przyszłości.
 #Trzeba skonstruować instrukcje warunkowe w taki sposób aby został wypisany tylko jeden zawód.
 
