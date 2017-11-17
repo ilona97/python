@@ -36,6 +36,8 @@ None - wartość nieokreślona, nieznana
 # True, False, 1, 100, -999, 0
 # Przykładowo: dla wartości 1, program ma wyświetlić '1 = prawda' lub '1 = fałsz', tak samo dla pozostałych wartości.
 
+"""
+
 if(True):
     print("True = prawda")
 else:
@@ -66,11 +68,26 @@ if(0):
 else:
     print("0 = fałsz")
 
+"""
+
 #
 # @Extra tasks
 # 1. Sprawdź używając python'a czy dwa jest większę od czternastu.
 
+"""
+if(2>14):
+    print("prawda")
+else:
+    print("fałsz")
+"""
 # 2. Sprawdź czy dla komputera dwanaście to to samo co dwa razy sześć.
+
+"""
+if( 12 == 2*6):
+    print("prawda")
+else:
+    print("fałsz")
+"""
 
 # 3. Powiedz co wypisze poniższy program, ale nie sprawdzaj czy miałaś rację ;)
 # x = 12
@@ -79,25 +96,42 @@ else:
 # else:
 #     print("nieprawda :o")
 #
-#=>
+#=> peeewnie " nieprawda :o"
 
 # 4. Korzystając tylko z pythona i konsoli sprawdź jaka jest kolejność wykonywania działań logicznych kiedy nie ma nawiasów.
 # Tzn. czy pierwszeństwo ma 'and' czy 'or'
 # Np. w zwykłej algebrze: 2 + 5 * 3 = 2 + (5 * 3) = 2 + 15
 # A jak to będzie w algebrze bool'a?
+#> pierwszeństwo ma and
+"""
+if(2 or 5 and 3 == 2 + 15):
+    print("prawda")
+else:
+    print("fałsz")
+"""
+#algebra bool'a 
+#   0+0=0           0*0=0
+#   0+1=1           0*1=0
+#   1+0=1           1*0=0
+#   1+1=1           1*1=1
+
+if(0 or 1 and 1 == 0 or 1):
+    print("prawda")
+else:
+    print("fałsz")
 
 
 # 5. Obok warunków wypisz jakie według Ciebie mają one wartości?
 # Wszystkie pomoce dozwolone, oprócz użycia do tego python'a i konsoli.
-# 12 > 5 #=> 
-# True or False #=> 
-# 1 > 3 and 3 > 11 #=> 
+# 12 > 5 #=>   1
+# True or False #=>    1
+# 1 > 3 and 3 > 11 #=>    0
 # x*2 >= x #=> 
-# x >= 0 or x < 0 #=> 
-# False == False #=> 
-# False and False #=>
-# (12 > 3 and 11 > 4 and 8 >= 8) or 9 < -1 #=> 
-
+# x >= 0 or x < 0 #=>  
+# False == False #=>     0
+# False and False #=>    0
+# (12 > 3 and 11 > 4 and 8 >= 8) or 9 < -1 #=>     0
+    
 # W poniższych przykładach skracaj powoli warunek w takiej kolejności jak to zrobi komputer
 #   np.: True and False or True #=> False or True #=> True
 # True and True or False #=>
