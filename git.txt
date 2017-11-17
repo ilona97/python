@@ -9,7 +9,7 @@ zdalne repozytorium - na serwerze (remote repository)
 1. Zapisanie pliku na komputerze  (workspace)
 2. Dodanie pliku do poczekalni (staging area): git add print.py 
 3. Zatwierdzenie pliku do repozytorium lokalnego (local repo): commit -m "cwiczenia z funkcja print"
-4. Wysłanie zatwierdzonego pliku do repozytorium zdalnego - na serwer(remote repo): git push -u
+4. Wysłanie zatwierdzonego pliku do repozytorium zdalnego - na serwer(remote repo): git push -u origin master
 
 (2)
 ## Jak pobrać repozytorium zdalne z serwera na komputer:
