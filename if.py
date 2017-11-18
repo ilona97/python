@@ -115,31 +115,31 @@ else:
 #   1+0=1           1*0=0
 #   1+1=1           1*1=1
 
-if(0 or 1 and 1 == 0 or 1):
+"""
+if(False or True and True == False or True):
     print("prawda")
 else:
     print("fałsz")
-
+"""
 
 # 5. Obok warunków wypisz jakie według Ciebie mają one wartości?
 # Wszystkie pomoce dozwolone, oprócz użycia do tego python'a i konsoli.
-# 12 > 5 #=>   1
-# True or False #=>    1
-# 1 > 3 and 3 > 11 #=>    0
-# x*2 >= x #=> 
-# x >= 0 or x < 0 #=>  
-# False == False #=>     0
-# False and False #=>    0
-# (12 > 3 and 11 > 4 and 8 >= 8) or 9 < -1 #=>     0
+# 12 > 5 #=>    True
+# True or False #=>    True
+# 1 > 3 and 3 > 11 #=>    False
+# x*2 >= x #=>  
+# x >= 0 or x < 0 #=>  false
+# False == False #=>     False
+# False and False #=>    False
+# (12 > 3 and 11 > 4 and 8 >= 8) or 9 < -1 #=>     False
     
 # W poniższych przykładach skracaj powoli warunek w takiej kolejności jak to zrobi komputer
 #   np.: True and False or True #=> False or True #=> True
-# True and True or False #=>
-# True or False and True #=>
-# True and (True or False) #=>
-# (True and True or False) or (True or False and True) #=>
-# True and (False or True) or (False or True and (False or True)) #=>
-
+# True and True or False #=> True or False #=> True
+# True or False and True #=> True or False #=> True
+# True and (True or False) #=> True and True #=> True
+# (True and True or False) or (True or False and True) #=> (True or False) or (True or False) #=> True or True #=> True
+# True and (False or True) or (False or True and (False or True)) #=> True and True or (False or True and True) #=> True or (False or True) #=> True or True #=> True
 
 #ćwiczonko pierwsze
 #Sprawdź na przykładzie, jaką wartość logiczną ma suma logiczna, dla wszystkich możliwych przypadków.
@@ -147,6 +147,27 @@ else:
 # Suma logiczna - alternatywa - or
 # False or False = fałsz
 # ...pozostałe przypadki
+"""
+if(False or False == False):
+    print("prawda")
+else:
+    print("error")
+
+if(False or True == True):
+    print("prawda")
+else:
+    print("error")
+
+if(True or False == True):
+    print("prawda")
+else:
+    print("error")
+
+if(True or True == True):
+    print("prawda")
+else:
+    print("error")
+"""
 
 
 #ćwiczonko drugie
@@ -155,16 +176,54 @@ else:
 # Iloczyn logiczny - koniunkcja - and
 # False and False = fałsz
 # ...pozostałe przypadki
+"""
+if((False and True) == False):
+    print("prawda")
+else:
+    print("error")
 
+if((True and False) == False):
+    print("prawda")
+else:
+    print("error")
 
+if((True and True) == True):
+    print("prawda")
+else:
+    print("error")
+"""
 #ćwiczonko trzecie
 #Wprowadź liczbę i sprawdź czy jest podzielna przez dwa
 
+"""
+print("x?=", end=" ")
+x=int(input())
+
+y=0
+
+if(x % 2 == y):
+    print(x, "podzielne przez 2 ")
+else:
+    print(x, "niepodzielne przez 2")
+   
+"""
 
 #ćwiczonko czwarte
 #Wprowadź liczbę i sprawdź jej podzielność przez drugą wprowadzoną liczbę
 #Wprowadź liczbę której podzielność chcesz sprawdzić i liczbę przez którą ma być podzielna
 
+print("x?=", end="")
+x=int(input())
+print("y?=", end="")
+y=int(input())
+
+i=0
+
+if(x % y == i):
+    print(i)
+else:
+    print("error")
+    
 
 #ćwiczonko piąte
 #Wprowadź liczbę i sprawdź czy mieści się w zakresie <50,100>
